@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+
+\bibitem{z_score}
+H.~Adam.
+\newblock {Z-Score Definition and Usage}.
+\newblock {\em Investopedia}, page
+  https://www.investopedia.com/terms/z/zscore.asp, 2019.
+
+\bibitem{NeuralNetwork}
+L.~Erik.
+\newblock {Artificial Intelligence and Soft Computing}.
+\newblock {\em Springer}, 3:13--24, 2015.
+
+\bibitem{MNE}
+M.~George.
+\newblock {Creating MNE objects from data arrays}.
+\newblock {\em https://www.nmr.mgh.harvard.edu/mne/stable
+  /auto\_examples/io/plot\_objects\_from\_arrays}, 1:1, 2019.
+
+\bibitem{Medical}
+G.~Gronseth.
+\newblock {Five Things Physicians and Patients Should Question}.
+\newblock {\em American Academy of Neurology}, 1:1, 2013.
+
+\bibitem{marketshare}
+H.~Jeff.
+\newblock {Deep Learning Framework Power Scores 2018}.
+\newblock {\em Towards Data Science}, 3:1, 2018.
+
+\bibitem{LSTM}
+S.~Jurgen.
+\newblock {Long short-term memory}.
+\newblock {\em Neural computation}, 1:9, 1997.
+
+\bibitem{EEG2}
+R.~Leszek.
+\newblock {Electroencephalography (EEG): An Introductory Text and Atlas of
+  Normal and Abnormal Findings in Adults, Children, and Infants}.
+\newblock {\em American Epilepsy Society}, 6:40--51, 2016.
+
+\bibitem{GGG}
+B.~Martin.
+\newblock {Radial Basis Functions: Theory and Implementations}.
+\newblock {\em Cambridge University Press}, 2:200--210, 2009.
+
+\bibitem{GGGG}
+B.~Martin.
+\newblock {Learn Python 3 the Hard Way: A Very Simple Introduction to the
+  Terrifyingly Beautiful World of Computers and Code}.
+\newblock {\em Addison-Wesley Professional}, 1:100--105, 2017.
+
+\bibitem{GG}
+T.~Robert.
+\newblock {Data Mining, Inference, and Prediction}.
+\newblock {\em The Elements of Statistical Learning}, 2:200--210, 2009.
+
+\bibitem{EEGSignalProcessing}
+S.~Saeid.
+\newblock {EEG signal processing}.
+\newblock {\em John Wiley \& Sons Ltd}, 1:1--30, 2007.
+
+\bibitem{EEG}
+B.~Sebastián.
+\newblock {Nature-inspired Algorithms for Selecting EEG Sources for Motor
+  Imagery based BCI}.
+\newblock pages 2--10.
+
+\end{thebibliography}

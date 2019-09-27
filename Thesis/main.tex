@@ -1,0 +1,158 @@
+\documentclass[12pt]{report}
+
+% font style
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[fontsize=13pt]{scrextend}
+
+% code
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\usepackage{graphicx}
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{subcaption}
+\pagestyle{fancy}
+\fancyhead{}
+% \fancyhead[RO,LE]{Apply neural network in EEG signal processing}
+\fancyhead[RO,LE]{Characterization of EEG signals according to brain regions using machine learning techniques}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Lai Khang Duy}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+%\usepackage[style=authoryear,sorting=none]{biblatex}
+%\addbibresource{1.bib}
+
+\graphicspath{{images/}}
+
+\title{
+	{Characterization of EEG signals according to brain regions using machine learning techniques}\\
+	{\large University of Science and Technology of Hanoi}\\
+	{\large Technical University of Ostrava}
+	\bigskip
+	\\
+	{\includegraphics[scale=0.5]{logo2.png}   \includegraphics[scale=0.4]{download.png}}
+}
+
+\author{{Lai Khang Duy}
+		\bigskip
+		\\
+		{External supervisor: Prof. Sebastián Basterrech}\\
+		{Internal supervisor: Prof. Nghiem Thi Phuong}
+}
+\date{\large August 16 2019}
+
+
+\begin{document}
+	
+\maketitle
+
+\tableofcontents
+
+\chapter*{Acknowledgements}
+
+First and foremost, I would like to express my gratefulness and sincerely to my supervisor, Professor Sebastián Basterrech, for giving me a wonderful opportunity to work and study in this machine learning topic, for the continuous support me during my internship in the Czech Republic and for his patience, motivation and immense knowledge. His guidance helps me to follow the correct path in the time I worked. I could not have imagined having a better supervisor and mentor in my very last and important time to finish the Bachelor program outside of my home country.
+
+My sincere also goes to my extraordinary internal supervisor, Prof. Nghiem Thi Phuong, who do not hesitate to help me anything, especially help me to finish my papers with University of Sciences and Technologies of Hanoi and the Czech Republic Embassy. I will unable to have this nice and remarkable internship without her.
+
+I would like to show my thankfulness to all my teachers, who have been along side with me in three years at University of Sciences and Technologies of Hanoi. It is a great pleasure to be your student.
+
+I would like also to give the great respect to Technical University of Ostrava, that provide me a place to live, a place to work, and the equipment that I use during the internship, my very kind roommate Vo Gia Thinh, as well as my labmate, Radek, Sue Lei and Ling Ping, to help me on the very first day I came to Ostrava.
+
+Last but not least, I want to give a great gratefulness to my family for giving me a lot of mental as well as financial support. This thesis could not be here without them.
+
+     
+\chapter*{Declaration}
+I hereby declare that this bachelor thesis was written by myself. I have quoted all the references I have drawn upon.\\
+The work was done under the guidance of Professor Sebastián Basterrech, at Faculty of Electrical and Information, Technical University of Ostrava.\\
+
+\bigskip
+Lai Khang Duy
+
+Ostrava, July 30, 2019
+     
+
+\listoffigures
+
+% \listoftables
+
+\chapter*{List of acronyms}
+    \begin{itemize}
+        \item USTH: University of Science and Technology of Hanoi
+        \item VSB: Technical University of Ostrava
+        \item EEG: Electroencephalography
+        \item EOG: Electrooculography
+        \item ECG: Electrocardiography
+        \item RNN: Recursive neural network
+        \item LSTM: Long short-term memory
+        \item SVM: Support vector machine
+    \end{itemize}
+
+\chapter*{Abstract}
+Almost any living creatures on the planet have brains. Brain is the most complex organ that exist in a living body and act a highly important role in the activities. When the brain is working and neurons transmit signal to each other, it generates electrical signals. With our technology today, we can measure the strength of the signal to analysis the body's behavior. This technique is called electroencephalography. However, each region of the brain is working on different tasks, which leads to the fact that the signal we measure over electrodes can really differentiate. In several cases, we need to classify the signal we measured belong to which part of the brain. In this article, I will apply both well-known machine learning techniques, recursive neural network (RNN) with long short-term memory (LSTM) and support vector machine(SVM) to classify the signal to 4 different classes after denoise the dataset using Z-score. The 4 classes are corresponding to 4 regions of the brain, Frontal lobe, Cerebellum, Parietal lobe and Occipital lobe and finally Temporal lobe.
+
+\bigskip
+Keywords: electroencephalography, classification, SVM, RNN, LSTM 
+     
+
+\chapter{Introduction}
+\input{chapters/chapter00.tex}
+
+\chapter{Theoretical background}
+\input{chapters/introduction}
+
+\chapter{Materials}
+\input{chapters/chapter02.tex}
+ 
+\chapter{EEG pre-processing}
+\input{chapters/chapter03.tex}
+
+\chapter{Machine learning methods}
+\input{chapters/chapter04.tex}
+
+\chapter{Empirical results}
+\input{chapters/chapter05.tex}
+
+\chapter{Conclusion and future works}
+\input{chapters/conclusion}
+
+\appendix
+\chapter{Setup the environment}
+\input{chapters/appendix}
+
+\chapter{Medical use of EEG~\cite{Medical}}
+\input{chapters/appendix2.tex}
+
+%\printbibliography
+%\printbibliography
+\bibliographystyle{abbrv}
+\bibliography{References}
+
+\end{document}

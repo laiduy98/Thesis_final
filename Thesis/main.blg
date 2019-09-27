@@ -1,0 +1,16 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: References.bib
+I was expecting a `,' or a `}'---line 68 of file References.bib
+ : 
+ : @article{GG,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 107 of file References.bib
+ : 
+ : % author = {Lee, Geun},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in EEG
+Warning--empty year in EEG
+(There were 2 error messages)

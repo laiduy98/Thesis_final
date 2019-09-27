@@ -1,0 +1,19 @@
+\section{Conclusion}
+
+With the results we have, it is clearly seen that the best accuracy for brain region classification is SVM machine learning algorithm. With LSTM, it is seen that it is not a good technique in this specific problem, with the accuracy of SVM in W2 is 0.72, which is pretty accurate compared to only 0.42 on LSTM, and it makes it not usable. The second thing that we see is that with time windows equal 400 time steps it is more accurate than 200. I can only divide the maximum dataset to 400 time steps per window, otherwise it will be lack of sample. This reason is because I have a lack of data and it will be more difficult. I think it will be more accurate if we have more data. This study if it successes can bring benefits for analyzing the plasticity of the brain as well as understanding how the damaged brain provokes changes in their functionality. 
+
+\section{Future works}
+According to our experiments, the highest accuracy was 72\%. Therefore, It is still possibilities of improving the classifier. We figured out that some of these reasons might affect the result and there are still works to solve in the future:
+
+\begin{enumerate}
+    \item Lack of data:
+    
+            The data we have is still not enough. We only have around 1400 data points with the case W1 and around 700 with case W2. Thus, this problem impacts the result we have.
+    \item Still have noise:
+    
+            What we have done to denoise by using Z-score is only removing the significant artifact is made by the equipment or the environment. We still have not removed ECG and EOG from the dataset we have. In the future, the classification can be more accurate by getting rid of them.
+            
+            High-pass and low-pass filter also can be applied to remove the noise and make it more accurate.
+\end{enumerate}
+
+In the future, we need to collect more data and have to work more on removing outliers in order to have a better result.

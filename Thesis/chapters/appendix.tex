@@ -1,0 +1,48 @@
+All of the setup below is done inside Linux environment. You can find tutorial for Windows and other platform in website https://www.anaconda.com.
+
+Step 1: Download Anaconda script
+\begin{lstlisting}
+cd /tmp
+curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
+\end{lstlisting}
+
+\bigskip
+Step 2: Run the Anaconda script
+\begin{lstlisting}
+bash Anaconda3-2019.03-Linux-x86_64.sh
+\end{lstlisting}
+You will receive the following output to review the license agreement by pressing ENTER until you reach the end.
+\begin{lstlisting}
+Welcome to Anaconda3 2019.03
+
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>>
+...
+Do you approve the license terms? [yes|no]
+\end{lstlisting}
+Type yes to agree with the license.
+Now you have done with installing python.
+
+\bigskip
+Step 3: Install dependency
+\begin{lstlisting}
+conda install -c anaconda numpy
+conda install -c anaconda pandas
+conda install -c anaconda matplotlib
+conda install -c conda-forge mne
+conda install -c conda-forge keras
+\end{lstlisting}
+After done all the steps above, the system is good to go if you are ok using notepad to code python. But VSCode or Jupyter lab is a extremely good replacement with supported tools, for example, IntelliSense for auto complete the code.
+\begin{lstlisting}
+conda install -c conda-forge jupyterlab
+\end{lstlisting}
+With the VSCode, you have to add a repository.
+\begin{lstlisting}
+sudo apt updatesudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt updatesudo apt install code
+\end{lstlisting}
+And you good to go.

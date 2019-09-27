@@ -1,0 +1,58 @@
+The electrode system that we use to measure is really sensitive. The advantage of this is that we can measure the small signal from the brain, but it comes along side with disadvantage. The surrounding environment with electrical field can impact the recorded EEG signal, so that it makes the accuracy lower. With Z-score, we have not removed all the possible outliers.
+
+\section{LSTM RNN}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+          & W2 = 400                        & W1 =200                         \\ \hline
+Epoch 1/2 & acc = 0.3173, val\_acc = 0.4255 & acc = 0.1941, val\_acc = 0.2626 \\ \hline
+Epoch 2/2 & acc = 0.3387, val\_acc = 0.4326 & acc = 0.2662, val\_acc = 0.3805 \\ \hline
+\end{tabular}
+\caption{Accuracy using LSTM with windows W1=200 and W2=400 time steps}
+\label{table:LSTM}
+\end{table}
+
+The table~\ref{table:LSTM} demonstrates the accuracy when we apply LSTM on the dataset. In this 2 cases, we can clearly see that the accuracy  of the case W2 is higher than case W1, when we divide the windows W2 times larges. The system with windows W2 have a slightly more accuracy than case W1, with 0.4182 in the validation set in W1 and 0.3805 in case W2. 
+
+\section{SVM}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+W2 = 400        & W1 =200          \\ \hline
+accuracy = 0.72 & accuracy = 0.575 \\ \hline
+\end{tabular}
+\caption{Accuracy using SVM with windows W1=200 and W2=400 time steps}
+\label{table:SVM}
+\end{table}
+
+The table~\ref{table:SVM} indicates the results of the accuracy when classify the brain region using SVM. As you can see, just like in RNN, the windows W2 case have a better accuracy when i validate on a separate dataset with 0.2 of the original dataset. The accuracy is 0.72 compare to only 0.575 on the set with windows W1. 
+
+% \begin{figure}
+%      \centering
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{logo2}
+%          \caption{$y=x$}
+%          \label{fig:y equals x}
+%      \end{subfigure}
+%      \hfill
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{logo2}
+%          \caption{$y=3sinx$}
+%          \label{fig:three sin x}
+%      \end{subfigure}
+%      \hfill
+%      \begin{subfigure}[b]{0.3\textwidth}
+%          \centering
+%          \includegraphics[width=\textwidth]{logo2}
+%          \caption{$y=5/x$}
+%          \label{fig:five over x}
+%      \end{subfigure}
+%         \caption{Three simple graphs}
+%         \label{fig:three graphs}
+% \end{figure}

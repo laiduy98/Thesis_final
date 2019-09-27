@@ -1,0 +1,696 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.9.23)  27 SEP 2019 09:45
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2018-12-01>
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) ("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+) ("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
+"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+ ("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\mathptmx.st
+y"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrext
+end.sty"
+Package: scrextend 2019/02/01 v3.26b KOMA-Script package (extend other classes 
+with features of KOMA-Script classes)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrkba
+se.sty"
+Package: scrkbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrbas
+e.sty"
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
+y"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-script\scrlfi
+le.sty"
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+))))
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 8.
+
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+sty"
+\lst@mode=\count89
+\lst@gtempboxa=\box27
+\lst@token=\toks17
+\lst@length=\count90
+\lst@currlwidth=\dimen103
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen104
+\lst@width=\dimen105
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen106
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
+ty"
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box28
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
+cfg"
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
+"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
+.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
+x.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
+sty"
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphicx.
+sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics.
+sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
+ics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.s
+ty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex.
+sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex.
+sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count97
+\Gm@cntv=\count98
+\c@Gm@tempcnt=\count99
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks18
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
+cfg"))
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
+sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip43
+\f@nch@O@elh=\skip44
+\f@nch@O@erh=\skip45
+\f@nch@O@olh=\skip46
+\f@nch@O@orh=\skip47
+\f@nch@O@elf=\skip48
+\f@nch@O@erf=\skip49
+\f@nch@O@olf=\skip50
+\f@nch@O@orf=\skip51
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption.st
+y"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption3.s
+ty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+)
+\c@caption@flags=\count100
+\c@ContinuedFloat=\count101
+Package caption Info: listings package is loaded.
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\subcaption
+.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count102
+\c@subtable=\count103
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 42.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 44.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 45.
+
+
+Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
+less on input line 46.
+
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 73.
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+\big@size=\dimen124
+\c@lstlisting=\count104
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
+df.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count105
+\scratchdimen=\dimen125
+\scratchbox=\box29
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen126
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks20
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-
+base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infware
+rr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.st
+y"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefin
+ekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmds
+.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptions
+.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetke
+ys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcmd
+s.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifluate
+x.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftexc
+mds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=11.69997pt plus 5.19942pt minus 2.60054pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<images/logo2.png, id=1, 255.1131pt x 158.5122pt>
+File: images/logo2.png Graphic file (type png)
+<use images/logo2.png>
+Package pdftex.def Info: images/logo2.png  used on input line 75.
+(pdftex.def)             Requested size: 127.55623pt x 79.2559pt.
+<images/download.png, id=3, 374.39874pt x 135.50626pt>
+File: images/download.png Graphic file (type png)
+<use images/download.png>
+Package pdftex.def Info: images/download.png  used on input line 75.
+(pdftex.def)             Requested size: 149.75684pt x 54.20152pt.
+LaTeX Font Info:    Calculating math sizes for size <15.59996> on input line 75
+.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 75
+.
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ztmcm.fd
+"
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 75
+.
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlztmcm.fd
+"
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 75
+.
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsztmcm.fd
+"
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 75
+.
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omxztmcm.fd
+"
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 75.
+ ("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <15.59996> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <11.54405> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.36006> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
+ [1
+
+{C:/Users/laikh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./images/lo
+go2.png> <./images/download.png>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <32.34409> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 77.
+ (main.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9.62007> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.80008> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+ [1
+
+])
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2] [3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+[4
+
+] (main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
+
+ [5
+
+]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 108.
+
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <13> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 108.
+
+[6
+
+] [7
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 125.
+(chapters/chapter00.tex) [8
+
+]
+Chapter 2.
+(chapters/introduction.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <18.72003> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <15.59996> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+<images/19E.png, id=38, 1003.75pt x 1003.75pt>
+File: images/19E.png Graphic file (type png)
+<use images/19E.png>
+Package pdftex.def Info: images/19E.png  used on input line 8.
+(pdftex.def)             Requested size: 136.57462pt x 136.57251pt.
+ [9
+
+ <./images/19E.png>]
+<images/Brain.png, id=43, 220.825pt x 201.75375pt>
+File: images/Brain.png Graphic file (type png)
+<use images/Brain.png>
+Package pdftex.def Info: images/Brain.png  used on input line 30.
+(pdftex.def)             Requested size: 136.57462pt x 124.78433pt.
+<images/EEG_electrodes_map_full.png, id=44, 853.1875pt x 972.63374pt>
+File: images/EEG_electrodes_map_full.png Graphic file (type png)
+<use images/EEG_electrodes_map_full.png>
+Package pdftex.def Info: images/EEG_electrodes_map_full.png  used on input line
+ 41.
+(pdftex.def)             Requested size: 136.57462pt x 155.68393pt.
+<images/EEG_electrodes_map_19.png, id=45, 246.42062pt x 235.37938pt>
+File: images/EEG_electrodes_map_19.png Graphic file (type png)
+<use images/EEG_electrodes_map_19.png>
+Package pdftex.def Info: images/EEG_electrodes_map_19.png  used on input line 4
+7.
+(pdftex.def)             Requested size: 159.33473pt x 152.20103pt.
+<images/EEGExample.png, id=46, 1312.4232pt x 642.4803pt>
+File: images/EEGExample.png Graphic file (type png)
+<use images/EEGExample.png>
+Package pdftex.def Info: images/EEGExample.png  used on input line 59.
+(pdftex.def)             Requested size: 455.24411pt x 222.85196pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[10 <./images/Brain.png>] [11 <./images/EEG_electrodes_map_full.png> <./images/
+EEG_electrodes_map_19.png> <./images/EEGExample.png>]
+<images/GeneralDiagram.png, id=57, 804.00375pt x 111.41624pt>
+File: images/GeneralDiagram.png Graphic file (type png)
+<use images/GeneralDiagram.png>
+Package pdftex.def Info: images/GeneralDiagram.png  used on input line 77.
+(pdftex.def)             Requested size: 455.24411pt x 63.08629pt.
+) [12 <./images/GeneralDiagram.png>]
+Chapter 3.
+(chapters/chapter02.tex
+Overfull \hbox (3.37595pt too wide) in paragraph at lines 12--13
+[]\T1/ptm/m/n/13 The fig-ure be-low il-lus-trates the mar-ket share of Ten-sor-
+flow and Keras from Google[[]].
+ []
+
+<images/KERA_usage.png, id=63, 702.625pt x 451.6875pt>
+File: images/KERA_usage.png Graphic file (type png)
+<use images/KERA_usage.png>
+Package pdftex.def Info: images/KERA_usage.png  used on input line 16.
+(pdftex.def)             Requested size: 409.71692pt x 263.39871pt.
+[13
+
+] [14 <./images/KERA_usage.png (PNG copy)>]
+<images/data.png, id=70, 317.988pt x 106.2369pt>
+File: images/data.png Graphic file (type png)
+<use images/data.png>
+Package pdftex.def Info: images/data.png  used on input line 48.
+(pdftex.def)             Requested size: 455.24411pt x 152.10075pt.
+ [15 <./images/data.png>])
+[16]
+Chapter 4.
+(chapters/chapter03.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 6.
+
+("C:\Users\laikh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+<images/EEG_with_MNE.png, id=78, 1302.8675pt x 682.55pt>
+File: images/EEG_with_MNE.png Graphic file (type png)
+<use images/EEG_with_MNE.png>
+Package pdftex.def Info: images/EEG_with_MNE.png  used on input line 20.
+(pdftex.def)             Requested size: 409.71692pt x 214.63986pt.
+
+[17
+
+]
+<images/OriginalData.png, id=83, 1376.0208pt x 506.6127pt>
+File: images/OriginalData.png Graphic file (type png)
+<use images/OriginalData.png>
+Package pdftex.def Info: images/OriginalData.png  used on input line 41.
+(pdftex.def)             Requested size: 318.66948pt x 117.3224pt.
+ [18 <./images/EEG_with_MNE.png (PNG copy)> <./images/OriginalData.png>]
+<images/fp1-2.png, id=92, 859.2903pt x 345.4506pt>
+File: images/fp1-2.png Graphic file (type png)
+<use images/fp1-2.png>
+Package pdftex.def Info: images/fp1-2.png  used on input line 55.
+(pdftex.def)             Requested size: 455.24411pt x 183.01414pt.
+<images/closer.png, id=93, 1387.584pt x 691.6239pt>
+File: images/closer.png Graphic file (type png)
+<use images/closer.png>
+Package pdftex.def Info: images/closer.png  used on input line 64.
+(pdftex.def)             Requested size: 455.24411pt x 226.90688pt.
+)
+[19 <./images/fp1-2.png> <./images/closer.png>] [20]
+Chapter 5.
+(chapters/chapter04.tex
+<images/unroll.png, id=102, 213.79875pt x 252.945pt>
+File: images/unroll.png Graphic file (type png)
+<use images/unroll.png>
+Package pdftex.def Info: images/unroll.png  used on input line 14.
+(pdftex.def)             Requested size: 136.57462pt x 161.57933pt.
+ [21
+
+ <./images/unroll.png (PNG copy)>]
+<images/RNN-rolled.png, id=106, 165.4983pt x 256.91985pt>
+File: images/RNN-rolled.png Graphic file (type png)
+<use images/RNN-rolled.png>
+Package pdftex.def Info: images/RNN-rolled.png  used on input line 47.
+(pdftex.def)             Requested size: 91.04742pt x 141.34554pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22]
+<images/LSTMDiagram.png, id=110, 763.85374pt x 251.94125pt>
+File: images/LSTMDiagram.png Graphic file (type png)
+<use images/LSTMDiagram.png>
+Package pdftex.def Info: images/LSTMDiagram.png  used on input line 81.
+(pdftex.def)             Requested size: 455.24411pt x 150.15102pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23 <./images/RNN-rolled.png>]) [24 <./images/LSTMDiagram.png>]
+Chapter 6.
+(chapters/chapter05.tex) [25
+
+] [26]
+Chapter 7.
+(chapters/conclusion.tex) [27
+
+] [28]
+Appendix A.
+(chapters/appendix.tex [29
+
+]) [30]
+Appendix B.
+(chapters/appendix2.tex [31
+
+]) (main.bbl [32]
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\T1/ptm/m/n/13 H. Adam.  Z-Score Def-i-ni-tion and Us-age.  \T1/ptm/m/it/13 I
+n-vesto-pe-dia\T1/ptm/m/n/13 , page
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+[]\T1/ptm/m/n/13 M. George.  Cre-at-ing MNE ob-jects from data ar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+\T1/ptm/m/n/13 rays.  \T1/ptm/m/it/13 https://www.nmr.mgh.harvard.edu/mne/stabl
+e
+ []
+
+) [33
+
+] (main.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6359 strings out of 492891
+ 97906 string characters out of 3123562
+ 339222 words of memory out of 3000000
+ 10120 multiletter control sequences out of 15000+200000
+ 57639 words of font info for 84 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,11n,47p,1325b,1716s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/laikh/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
+}{C:/Users/laikh/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-
+super-t1.enc}<C:/Users/laikh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/laikh/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/laikh/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/cm-super/sftt1200.pfb><C:/Users/laikh/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Users/laikh/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Users/laikh/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/laikh/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (34 pages, 2883614 bytes).
+PDF statistics:
+ 173 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+

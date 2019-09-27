@@ -1,0 +1,24 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An example of tool to record the brain electrical signal\relax }}{9}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Region of the brain\relax }}{10}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Full electrode map\relax }}{11}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 19 electrodes map\relax }}{11}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Example of a typical EEG signals\relax }}{11}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces General diagram of a signal based region classification system.\relax }}{12}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces KDnuggets usage survey\relax }}{14}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces First 15 data points\relax }}{15}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Visual EEG signal with MNE-python\relax }}{18}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Original data\relax }}{18}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A part of FP1 before and after apply Z-score\relax }}{19}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Closer look at signal recorded by the electrode FP1 \relax }}{19}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Unrolled dataset\relax }}{21}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces RNN-rolled\relax }}{23}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Neural network breakdown diagram\relax }}{24}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
