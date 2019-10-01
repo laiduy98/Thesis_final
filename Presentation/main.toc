@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Theoretical background}{7}{0}{2}
+\beamer@sectionintoc {3}{EEG signals pre-processing}{12}{0}{3}
+\beamer@sectionintoc {4}{Machine learning methods}{19}{0}{4}
+\beamer@sectionintoc {5}{Empirical results}{22}{0}{5}
+\beamer@sectionintoc {6}{Conclusion and future works}{25}{0}{6}
