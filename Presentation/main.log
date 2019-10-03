@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.31)  2 OCT 2019 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.5.31)  2 OCT 2019 22:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1260,7 +1260,7 @@ Overfull \vbox (44.55656pt too high) detected at line 47
 (./main.toc) [3
 
 ]
-<images/brain1.jpg, id=74, 662.475pt x 529.98pt>
+<images/brain1.jpg, id=81, 662.475pt x 529.98pt>
 File: images/brain1.jpg Graphic file (type jpg)
 <use images/brain1.jpg>
 Package pdftex.def Info: images/brain1.jpg  used on input line 63.
@@ -1281,152 +1281,241 @@ File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 
 ] [6
 
-] (./main.toc)
-[7
+] [7
 
 ] [8
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 122.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+[9
+
+] [10
+
+] (./main.toc) [11
+
+] [12
+
+]
+<images/Brain.png, id=138, 220.825pt x 201.75375pt>
+File: images/Brain.png Graphic file (type png)
+<use images/Brain.png>
+Package pdftex.def Info: images/Brain.png  used on input line 132.
+(pdftex.def)             Requested size: 154.57643pt x 141.22665pt.
+
+Overfull \hbox (0.9315pt too wide) in paragraph at lines 132--132
+ [] 
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 132.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 122.
+LaTeX Font Info:    Try loading font information for U+msb on input line 132.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 122.
+line 132.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<images/Brain.png, id=110, 220.825pt x 201.75375pt>
-File: images/Brain.png Graphic file (type png)
-<use images/Brain.png>
-Package pdftex.def Info: images/Brain.png  used on input line 122.
-(pdftex.def)             Requested size: 154.57643pt x 141.22665pt.
-
-Overfull \hbox (0.9315pt too wide) in paragraph at lines 122--122
- [] 
- []
-
-[9
-
- <./images/Brain.png>]
-<images/EEG_electrodes_map_full.png, id=119, 853.1875pt x 972.63374pt>
-File: images/EEG_electrodes_map_full.png Graphic file (type png)
-<use images/EEG_electrodes_map_full.png>
-Package pdftex.def Info: images/EEG_electrodes_map_full.png  used on input line
- 144.
-(pdftex.def)             Requested size: 110.91826pt x 126.44682pt.
-<images/EEG_electrodes_map_19.png, id=120, 246.42062pt x 235.37938pt>
-File: images/EEG_electrodes_map_19.png Graphic file (type png)
-<use images/EEG_electrodes_map_19.png>
-Package pdftex.def Info: images/EEG_electrodes_map_19.png  used on input line 1
-44.
-(pdftex.def)             Requested size: 135.53174pt x 129.45905pt.
- [10
-
- <./images/EEG_electrodes_map_full.png> <./images/EEG_electrodes_map_19.png>]
-<images/EEG_with_MNE.png, id=130, 1302.8675pt x 682.55pt>
-File: images/EEG_with_MNE.png Graphic file (type png)
-<use images/EEG_with_MNE.png>
-Package pdftex.def Info: images/EEG_with_MNE.png  used on input line 153.
-(pdftex.def)             Requested size: 325.71608pt x 170.63708pt.
-
-Overfull \hbox (18.42621pt too wide) in paragraph at lines 153--153
- [] 
- []
-
-
-Overfull \vbox (14.33101pt too high) detected at line 153
- []
-
-[11
-
- <./images/EEG_with_MNE.png (PNG copy)>] (./main.toc) [12
-
-]
-<images/GeneralDiagram.png, id=147, 804.00375pt x 111.41624pt>
-File: images/GeneralDiagram.png Graphic file (type png)
-<use images/GeneralDiagram.png>
-Package pdftex.def Info: images/GeneralDiagram.png  used on input line 170.
-(pdftex.def)             Requested size: 321.59581pt x 44.5657pt.
-
-Overfull \hbox (14.30594pt too wide) in paragraph at lines 170--170
- [] 
- []
-
 [13
 
- <./images/GeneralDiagram.png>]
+ <./images/Brain.png>]
+File: images/Brain.png Graphic file (type png)
+<use images/Brain.png>
+Package pdftex.def Info: images/Brain.png  used on input line 132.
+(pdftex.def)             Requested size: 154.57643pt x 141.22665pt.
 
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 189.
+Overfull \hbox (0.9315pt too wide) in paragraph at lines 132--132
+ [] 
+ []
 
 [14
 
 ]
-<images/fp1-2.png, id=165, 859.2903pt x 345.4506pt>
-File: images/fp1-2.png Graphic file (type png)
-<use images/fp1-2.png>
-Package pdftex.def Info: images/fp1-2.png  used on input line 198.
-(pdftex.def)             Requested size: 343.71002pt x 138.17778pt.
+File: images/Brain.png Graphic file (type png)
+<use images/Brain.png>
+Package pdftex.def Info: images/Brain.png  used on input line 132.
+(pdftex.def)             Requested size: 154.57643pt x 141.22665pt.
 
-Overfull \hbox (36.42015pt too wide) in paragraph at lines 198--198
+Overfull \hbox (0.9315pt too wide) in paragraph at lines 132--132
  [] 
  []
 
 [15
 
- <./images/fp1-2.png>]
-<images/Figure_1.png, id=173, 1387.584pt x 691.6239pt>
-File: images/Figure_1.png Graphic file (type png)
-<use images/Figure_1.png>
-Package pdftex.def Info: images/Figure_1.png  used on input line 207.
-(pdftex.def)             Requested size: 319.1376pt x 159.07014pt.
+]
+File: images/Brain.png Graphic file (type png)
+<use images/Brain.png>
+Package pdftex.def Info: images/Brain.png  used on input line 132.
+(pdftex.def)             Requested size: 154.57643pt x 141.22665pt.
 
-Overfull \hbox (11.84773pt too wide) in paragraph at lines 207--207
+Overfull \hbox (0.9315pt too wide) in paragraph at lines 132--132
  [] 
- []
-
-
-Overfull \vbox (2.76407pt too high) detected at line 207
  []
 
 [16
 
- <./images/Figure_1.png>] [17
+]
+File: images/Brain.png Graphic file (type png)
+<use images/Brain.png>
+Package pdftex.def Info: images/Brain.png  used on input line 132.
+(pdftex.def)             Requested size: 154.57643pt x 141.22665pt.
 
-] [18
+Overfull \hbox (0.9315pt too wide) in paragraph at lines 132--132
+ [] 
+ []
 
-] (./main.toc) [19
+[17
 
 ]
-<images/LSTMDiagram.png, id=202, 763.85374pt x 251.94125pt>
-File: images/LSTMDiagram.png Graphic file (type png)
-<use images/LSTMDiagram.png>
-Package pdftex.def Info: images/LSTMDiagram.png  used on input line 245.
-(pdftex.def)             Requested size: 305.53607pt x 100.7747pt.
- [20
+<images/EEG_electrodes_map_full.png, id=169, 853.1875pt x 972.63374pt>
+File: images/EEG_electrodes_map_full.png Graphic file (type png)
+<use images/EEG_electrodes_map_full.png>
+Package pdftex.def Info: images/EEG_electrodes_map_full.png  used on input line
+ 154.
+(pdftex.def)             Requested size: 110.91826pt x 126.44682pt.
+<images/EEG_electrodes_map_19.png, id=170, 246.42062pt x 235.37938pt>
+File: images/EEG_electrodes_map_19.png Graphic file (type png)
+<use images/EEG_electrodes_map_19.png>
+Package pdftex.def Info: images/EEG_electrodes_map_19.png  used on input line 1
+54.
+(pdftex.def)             Requested size: 135.53174pt x 129.45905pt.
+ [18
 
- <./images/LSTMDiagram.png>] [21
+ <./images/EEG_electrodes_map_full.png> <./images/EEG_electrodes_map_19.png>]
+File: images/EEG_electrodes_map_full.png Graphic file (type png)
+<use images/EEG_electrodes_map_full.png>
+Package pdftex.def Info: images/EEG_electrodes_map_full.png  used on input line
+ 154.
+(pdftex.def)             Requested size: 110.91826pt x 126.44682pt.
+File: images/EEG_electrodes_map_19.png Graphic file (type png)
+<use images/EEG_electrodes_map_19.png>
+Package pdftex.def Info: images/EEG_electrodes_map_19.png  used on input line 1
+54.
+(pdftex.def)             Requested size: 135.53174pt x 129.45905pt.
+ [19
 
-] (./main.toc) [22
+]
+<images/EEG_with_MNE.png, id=186, 1302.8675pt x 682.55pt>
+File: images/EEG_with_MNE.png Graphic file (type png)
+<use images/EEG_with_MNE.png>
+Package pdftex.def Info: images/EEG_with_MNE.png  used on input line 163.
+(pdftex.def)             Requested size: 325.71608pt x 170.63708pt.
 
-] [23
+Overfull \hbox (18.42621pt too wide) in paragraph at lines 163--163
+ [] 
+ []
+
+
+Overfull \vbox (14.33101pt too high) detected at line 163
+ []
+
+[20
+
+ <./images/EEG_with_MNE.png (PNG copy)>] (./main.toc) [21
+
+]
+<images/GeneralDiagram.png, id=204, 804.00375pt x 111.41624pt>
+File: images/GeneralDiagram.png Graphic file (type png)
+<use images/GeneralDiagram.png>
+Package pdftex.def Info: images/GeneralDiagram.png  used on input line 180.
+(pdftex.def)             Requested size: 321.59581pt x 44.5657pt.
+
+Overfull \hbox (14.30594pt too wide) in paragraph at lines 180--180
+ [] 
+ []
+
+[22
+
+ <./images/GeneralDiagram.png>]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 199.
+
+[23
 
 ] [24
 
-] (./main.toc) [25
+] [25
 
-] [26
+]
+<images/fp1-2.png, id=231, 859.2903pt x 345.4506pt>
+File: images/fp1-2.png Graphic file (type png)
+<use images/fp1-2.png>
+Package pdftex.def Info: images/fp1-2.png  used on input line 208.
+(pdftex.def)             Requested size: 343.71002pt x 138.17778pt.
 
-] [27
+Overfull \hbox (36.42015pt too wide) in paragraph at lines 208--208
+ [] 
+ []
+
+[26
+
+ <./images/fp1-2.png>]
+<images/Figure_1.png, id=239, 1387.584pt x 691.6239pt>
+File: images/Figure_1.png Graphic file (type png)
+<use images/Figure_1.png>
+Package pdftex.def Info: images/Figure_1.png  used on input line 217.
+(pdftex.def)             Requested size: 319.1376pt x 159.07014pt.
+
+Overfull \hbox (11.84773pt too wide) in paragraph at lines 217--217
+ [] 
+ []
+
+
+Overfull \vbox (2.76407pt too high) detected at line 217
+ []
+
+[27
+
+ <./images/Figure_1.png>] [28
+
+] [29
+
+] [30
+
+] [31
+
+] [32
+
+] (./main.toc) [33
+
+]
+<images/LSTMDiagram.png, id=284, 763.85374pt x 251.94125pt>
+File: images/LSTMDiagram.png Graphic file (type png)
+<use images/LSTMDiagram.png>
+Package pdftex.def Info: images/LSTMDiagram.png  used on input line 258.
+(pdftex.def)             Requested size: 305.53607pt x 100.7747pt.
+
+[34
+
+ <./images/LSTMDiagram.png>] [35
+
+] (./main.toc) [36
+
+] [37
+
+] [38
+
+] (./main.toc)
+[39
+
+] [40
+
+] (./main.toc) [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
 
 ]
 \tf@nav=\write7
@@ -1438,23 +1527,22 @@ Package pdftex.def Info: images/LSTMDiagram.png  used on input line 245.
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
-
-(./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
+ (./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 341.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 421A8985571149F6D0F344A866250EB7;338.
+(rerunfilecheck)             Checksum: 3AA55F13899A3961A4F439ED4EE5F3F5;383.
  ) 
 Here is how much of TeX's memory you used:
- 22521 strings out of 492641
- 442137 string characters out of 6131787
- 510771 words of memory out of 5000000
- 25811 multiletter control sequences out of 15000+600000
+ 22569 strings out of 492641
+ 442590 string characters out of 6131787
+ 512828 words of memory out of 5000000
+ 25820 multiletter control sequences out of 15000+600000
  13526 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,13n,97p,1803b,707s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,97p,1804b,729s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dis
@@ -1464,10 +1552,10 @@ public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (27 pages, 983314 bytes).
+Output written on main.pdf (45 pages, 1001629 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 244 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 428 PDF objects out of 1000 (max. 8388607)
+ 346 compressed objects within 4 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,6 @@
 \documentclass[xcolor=dvipsnames]{beamer} % dvipsnames gives more built-in colors
 \usepackage[utf8]{inputenc}
-\usetheme{metropolis}
+ \usetheme{metropolis}
 % \usetheme{CambridgeUS}
 % \usecolortheme{seagull}
 % \setbeamertemplate{caption}[numbered]
@@ -38,10 +38,10 @@
 }
 
 \title[EEGSignal]{Characterization of EEG signals according to brain regions using machine learning techniques}
-\author[Lai Khang Duy]{Lai Khang Duy \texorpdfstring{ \\ [4mm] 
+\author[Lai Khang Duy]{Lai Khang Duy - USTHBI7-051 \texorpdfstring{ \\ [4mm] 
 		{\small \textit{Supervisors}: Sebastian Basterrech}}{}}
 \institute[]{ICT Department - University of Science and Technology of Hanoi}
-\date{August 16, 2019}
+\date{October 4, 2019}
 
 \begin{document}
 	\frame{\titlepage}
@@ -74,14 +74,18 @@
 	\begin{frame}{Problem and Objective}
 	    \begin{itemize}
 	        \item \textbf{Objective: }Characterize brain regions over labeled EEG signal.
+	        \pause
 	        \item \textbf{Why we have to study this?}
+	        \pause
 	        \begin{itemize}
-	            \item When some area of the brain is damaged, the brain plasticity provokes other parts. It can be activated and have new functionalities in order of mitigating the impact of brain damages. 
+	            \item When some area of the brain is damaged, the brain plasticity provokes other parts. It can be activated and have new functionalities in order of mitigating the impact of brain damages.
+	            \pause
 	            \item So here is why:
 	            \begin{enumerate}
 	                \item Analyzing the plasticity of the brain.
 	                \item How damaged brain provokes changes in their functionality.
 	            \end{enumerate}
+            \pause
 	        \end{itemize}
 	        \item Our goal is to have a general comparison between 2 well-known machine learning techniques LSTM and SVM in classifying brain regions. 
 	    \end{itemize}
@@ -100,24 +104,30 @@
     
     \begin{frame}{Electroencephalography}
         \begin{columns}
+        	
+        \begin{column}{0.5\textwidth}
+        	\begin{figure}
+        		\centering
+        		\includegraphics[scale=0.7]{images/Brain.png}
+        		\caption{Region of the brain}
+        		\label{fig:region}
+        	\end{figure}
+        \end{column}	
+        	
         \begin{column}{0.5\textwidth}
             \begin{itemize}
             \item Frontal lobe (F) (Red)
+            \pause
             \item Cerebellum (C) (Cyan)
+            \pause
             \item Parietal lobe (P) (Yellow)
+            \pause
             \item Occipital lobe (O) (Emerald)
+            \pause
             \item Temporal lobe (T) (Green)
             \end{itemize}
         \end{column}
         
-        \begin{column}{0.5\textwidth}
-            \begin{figure}
-                \centering
-                \includegraphics[scale=0.7]{images/Brain.png}
-                \caption{Region of the brain}
-                \label{fig:region}
-            \end{figure}
-        \end{column}
         \end{columns}
     \end{frame}
     
@@ -127,11 +137,11 @@
             \begin{figure}
                 \centering
                 \includegraphics[scale=0.13]{images/EEG_electrodes_map_full.png}
-                \caption{full electrode map system}
+                \caption{Full electrode map system}
                 \label{fig:full}
             \end{figure}
         \end{column}
-        
+        \pause
         \begin{column}{0.5\textwidth}
             \begin{figure}
                 \centering
@@ -182,9 +192,9 @@
 	
 	The technique that we use to denoise in this study is Z-score.
 		$$z={{x-\mu}  \over \sigma }$$
-		
+	\pause	
 	\textbf{Why ?}
-	
+	\pause
 	Because EEG signal very stable. Any significant changes is considered as outliers. In this case, I want to consider around 5\% of the data we have is outliers.
 	\end{frame}
 	
@@ -209,6 +219,7 @@
 	\begin{frame}{Learning set creation}
 	    \begin{itemize}
 	        \item 19 electrodes
+	        \pause
 	        \item 4 classes:
 	            \begin{enumerate}
 	                \item Class 0: including FP1-AVE, FP2-AVE, F3-AVE, F4-AVE, F7-AVE, F8-AVE, Fz-AVE
@@ -216,11 +227,13 @@
 	                \item Class 2: including T3-AVE, T4-AVE, T5-AVE, T6-AVE
 	                \item Class 3: including P3-AVE, P4-AVE, Pz-AVE, O1-AVE,  O2-AVE
 	            \end{enumerate}
+            \pause
 	        \item 2 datasets with the same signal:
 	            \begin{enumerate}
 	                \item W1: 200 time steps
 	                \item W2: 400 time steps
 	            \end{enumerate}
+            \pause
 	       \item Shuffle whole dataset after divide classes and time windows.
 	    \end{itemize}
 	\end{frame}
@@ -292,23 +305,37 @@
         \end{table}
 	\end{frame}
 
+	\section{Discussion}
+		
+	\begin{frame}{Discussion}
+	\begin{itemize}
+		\item SVM has better accuracy than LSTM-RNN.
+		\item window W2 has better accuracy than window W1.
+		\item According to our experiments, the highest accuracy was 72\%.
+	\end{itemize}
+	\end{frame}
+
 	\section{Conclusion and future works}
 	
 	\begin{frame}{Conclusion}
-	    \begin{itemize}
-	        \item SVM has better accuracy than LSTM-RNN.
-	        \item window W2 has better accuracy than window W1.
-	        \item 0.72 is our best results by far.
-	    \end{itemize}
-	\end{frame}
+	The result of this experiment still not as we expected.
 	
-	\begin{frame}{Future works}
-	    It is still possible to improve the classifier. We have figured out some of the reasons might affect the result:
+	We have figured out some of the reasons might affect the result:
 	    \begin{itemize}
 	        \item Lack of data.
+	        \pause
 	        \item ECG and EOG still have not be removed.
-	        \item Try to change the filter.
+	        \pause
+	        \item The filter is still not perfect.
 	    \end{itemize}
+	\end{frame}
+
+	\begin{frame}{Future works}
+	It is still possible to improve the classifier.
+		\begin{itemize}
+			\item Collect more data.
+			\item Improve the noise filter.
+		\end{itemize}
 	\end{frame}
 	
 \end{document}
